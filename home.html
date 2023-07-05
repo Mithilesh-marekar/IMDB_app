@@ -27,14 +27,21 @@
   <!-- end of logo -->
 
   <!-- Title -->
-  <header>
+  <!-- <header>
     <h1>Search Your Entertainment here...</h1>
-  </header>
+  </header> -->
 
-  
+<!-- Animation -->
+  <div class="Animation">
+    <span class="static">Search Your</span>
+    <span id="element"></span>
+    <span class="static">here.....</span>
+  </div>
+
   <!-- Search container -->
   <div class="search-container">
     <div class="search-element">
+      
         
 
     
@@ -52,6 +59,17 @@
 </div>
 <!-- end of outer container -->
 
+
+
+<!-- Load library from the CDN -->
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<!-- Setup and start animation! -->
+<script>
+    var typed = new Typed('#element', {
+        strings: ['Entertainment','Happiness','Movies','Movie Ratings' ],
+        typeSpeed: 50,
+    });
+</script>
 
 
 <!-- Home Page script -->

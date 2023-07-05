@@ -80,16 +80,22 @@ img {
 }
 /*End of logo*/
 
-
-
-/* Search container */
-header{
-  display: flex;
-  background-color: var(--md-dark-color);
-  justify-content: center;
-  color: var( --yellow-color);
-  padding: 100px 0px 0px 0px;
+.static{
+  color: white;
+  font-size: 40px;
 }
+.Animation{
+  background-color:var(--md-dark-color);
+  padding: 100px 0px 20px 0px;
+  justify-content: center;
+  text-align:center ;
+}
+/* Text Animation - Search container */
+#element{
+  color:var(--yellow-color);
+  font-size: 40px;
+}
+
 
 .search-container {
   background-color: var(--md-dark-color);
